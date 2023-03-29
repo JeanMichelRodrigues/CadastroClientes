@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Cadastro de Clientes";
+}
+
+<h2>Cadastro de Cliente</h2>
+
+<form>
+    <div class="Cadastro">
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite o nome do cliente" id="nome">
+    </div>
+    <p></p>
+    <div class="input-container2">
+        <label for="cpf">CPF</label>
+        <input type="number" placeholder="Digite o CPF do cliente" id="cpf">
+    </div>
+    <p></p>
+    <div class="input-container2">
+        <div class="styled-select">
+            <label for="sexo">Sexo</label>
+            <select name="" id="sexo">
+                <option value="" disabled selected>Selecione o sexo</option>
+                <option value="femi">Feminino</option>
+                <option value="masc">Masculino</option>
+                <option value="mt">Outro</option>
+            </select>
+        </div>
+    </div>
+    <p></p>
+    <div class="input-container2">
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Digite o e-mail do cliente" id="email">
+    </div>
+    <p></p>
+    <div class="input-container2">
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" placeholder="Digite a data de nascimento" id="nascimento">
+    </div>
+    <p></p>
+    <div class="button-container-button">
+        <i class="btn-salvar" aria-hidden="true"></i>
+        <input type="button" value="Salvar" id="btnsalvar">
+        <i class="btn-remover" aria-hidden="true"></i>
+        <input type="button" value="Remover" id="btnremover">
+    </div>
+</form>
